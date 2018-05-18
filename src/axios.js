@@ -1,3 +1,4 @@
+cordova.define("cordova-plugin-oriente-axios.axios", function (require, exports, module) {
 let exec = require('cordova/exec');
 
 exports.request = (options) => {
@@ -63,3 +64,4 @@ exports.all = (iterable = []) => {
 exports.race = (iterable = []) => {
   return Promise.race(iterable);
 }
+})
