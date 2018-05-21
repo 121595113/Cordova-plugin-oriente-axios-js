@@ -4,8 +4,8 @@
   "description": "Vue.js plugin for cordova-plugin-oriente-axios",
   "main": "axios.js",
   "scripts": {
-    "build": "babel src/axios.js  -o  www/axios.js",
-    "prepublish": "npm run build"
+    "axios": "babel src/axios.js  -o  www/axios.js",
+    "oriente-router": "babel src/oriente-router.js  -o  www/oriente-router.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
